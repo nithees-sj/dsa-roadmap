@@ -1,0 +1,9 @@
+services:
+  dsa-roadmap:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dsa-roadmap
+    ports:
+      - "3000:80"
+    restart: unless-stopped
