@@ -1,0 +1,3219 @@
+[
+ {
+  "p": 0,
+  "t": "Foundations: Java Toolkit, Complexity, Math",
+  "w": "Week 1",
+  "learn": "Java Collections (ArrayList, HashMap, HashSet, ArrayDeque, PriorityQueue, TreeMap), StringBuilder, Comparators · Time & space complexity (Big-O), reading constraints · GCD/LCM, prime check, Sieve of Eratosthenes, fast power",
+  "items": [
+   {
+    "id": "0.1",
+    "s": 0,
+    "n": "Palindrome Number",
+    "l": "E",
+    "k": "LC 9",
+    "u": "https://leetcode.com/problems/palindrome-number/"
+   },
+   {
+    "id": "0.2",
+    "s": 1,
+    "n": "Reverse Integer",
+    "l": "M",
+    "k": "LC 7",
+    "u": "https://leetcode.com/problems/reverse-integer/"
+   },
+   {
+    "id": "0.3",
+    "s": 0,
+    "n": "Fizz Buzz",
+    "l": "E",
+    "k": "LC 412",
+    "u": "https://leetcode.com/problems/fizz-buzz/"
+   },
+   {
+    "id": "0.4",
+    "s": 1,
+    "n": "Count Primes",
+    "l": "M",
+    "k": "LC 204",
+    "u": "https://leetcode.com/problems/count-primes/"
+   },
+   {
+    "id": "0.5",
+    "s": 0,
+    "n": "Find GCD of Array",
+    "l": "E",
+    "k": "LC 1979",
+    "u": "https://leetcode.com/problems/find-greatest-common-divisor-of-array/"
+   },
+   {
+    "id": "0.6",
+    "s": 1,
+    "n": "Pow(x, n)",
+    "l": "M",
+    "k": "LC 50",
+    "u": "https://leetcode.com/problems/powx-n/"
+   },
+   {
+    "id": "0.7",
+    "s": 0,
+    "n": "Happy Number",
+    "l": "E",
+    "k": "LC 202",
+    "u": "https://leetcode.com/problems/happy-number/"
+   },
+   {
+    "id": "0.8",
+    "s": 0,
+    "n": "Factorial Trailing Zeroes",
+    "l": "M",
+    "k": "LC 172",
+    "u": "https://leetcode.com/problems/factorial-trailing-zeroes/"
+   }
+  ]
+ },
+ {
+  "p": 1,
+  "t": "Arrays & Sorting Algorithms",
+  "w": "Week 2",
+  "learn": "Array traversal & in-place tricks · Kadane's algorithm · Boyer-Moore voting · Rotation by reversal · Next permutation · Merge sort & Quick sort (implement yourself) · Cyclic sort / index marking",
+  "items": [
+   {
+    "id": "1.1",
+    "s": 0,
+    "n": "Largest Element in Array",
+    "l": "E",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/largest-element-in-array4009/1"
+   },
+   {
+    "id": "1.2",
+    "s": 0,
+    "n": "Second Largest",
+    "l": "E",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/second-largest3735/1"
+   },
+   {
+    "id": "1.3",
+    "s": 0,
+    "n": "Check if Array Is Sorted and Rotated",
+    "l": "E",
+    "k": "LC 1752",
+    "u": "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/"
+   },
+   {
+    "id": "1.4",
+    "s": 1,
+    "n": "Remove Duplicates from Sorted Array",
+    "l": "E",
+    "k": "LC 26",
+    "u": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/"
+   },
+   {
+    "id": "1.5",
+    "s": 1,
+    "n": "Rotate Array",
+    "l": "M",
+    "k": "LC 189",
+    "u": "https://leetcode.com/problems/rotate-array/"
+   },
+   {
+    "id": "1.6",
+    "s": 0,
+    "n": "Max Consecutive Ones",
+    "l": "E",
+    "k": "LC 485",
+    "u": "https://leetcode.com/problems/max-consecutive-ones/"
+   },
+   {
+    "id": "1.7",
+    "s": 1,
+    "n": "Merge Sorted Array",
+    "l": "E",
+    "k": "LC 88",
+    "u": "https://leetcode.com/problems/merge-sorted-array/"
+   },
+   {
+    "id": "1.8",
+    "s": 1,
+    "n": "Majority Element",
+    "l": "E",
+    "k": "LC 169",
+    "u": "https://leetcode.com/problems/majority-element/"
+   },
+   {
+    "id": "1.9",
+    "s": 0,
+    "n": "Majority Element II",
+    "l": "M",
+    "k": "LC 229",
+    "u": "https://leetcode.com/problems/majority-element-ii/"
+   },
+   {
+    "id": "1.10",
+    "s": 1,
+    "n": "Maximum Subarray",
+    "l": "M",
+    "k": "LC 53",
+    "u": "https://leetcode.com/problems/maximum-subarray/"
+   },
+   {
+    "id": "1.11",
+    "s": 1,
+    "n": "Maximum Product Subarray",
+    "l": "M",
+    "k": "LC 152",
+    "u": "https://leetcode.com/problems/maximum-product-subarray/"
+   },
+   {
+    "id": "1.12",
+    "s": 1,
+    "n": "Best Time to Buy and Sell Stock",
+    "l": "E",
+    "k": "LC 121",
+    "u": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+   },
+   {
+    "id": "1.13",
+    "s": 0,
+    "n": "Leaders in an Array",
+    "l": "E",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1"
+   },
+   {
+    "id": "1.14",
+    "s": 0,
+    "n": "Rearrange Array Elements by Sign",
+    "l": "M",
+    "k": "LC 2149",
+    "u": "https://leetcode.com/problems/rearrange-array-elements-by-sign/"
+   },
+   {
+    "id": "1.15",
+    "s": 1,
+    "n": "Next Permutation",
+    "l": "M",
+    "k": "LC 31",
+    "u": "https://leetcode.com/problems/next-permutation/"
+   },
+   {
+    "id": "1.16",
+    "s": 0,
+    "n": "Pascal's Triangle",
+    "l": "E",
+    "k": "LC 118",
+    "u": "https://leetcode.com/problems/pascals-triangle/"
+   },
+   {
+    "id": "1.17",
+    "s": 1,
+    "n": "Sort an Array",
+    "l": "M",
+    "k": "LC 912",
+    "u": "https://leetcode.com/problems/sort-an-array/"
+   },
+   {
+    "id": "1.18",
+    "s": 1,
+    "n": "First Missing Positive",
+    "l": "H",
+    "k": "LC 41",
+    "u": "https://leetcode.com/problems/first-missing-positive/"
+   }
+  ]
+ },
+ {
+  "p": 2,
+  "t": "Hashing",
+  "w": "Week 3",
+  "learn": "HashMap & HashSet · Frequency counting (int[26]) · Complement lookup · Grouping by key · Bucket sort",
+  "items": [
+   {
+    "id": "2.1",
+    "s": 0,
+    "n": "Unique Number of Occurrences",
+    "l": "E",
+    "k": "LC 1207",
+    "u": "https://leetcode.com/problems/unique-number-of-occurrences/"
+   },
+   {
+    "id": "2.2",
+    "s": 1,
+    "n": "Contains Duplicate",
+    "l": "E",
+    "k": "LC 217",
+    "u": "https://leetcode.com/problems/contains-duplicate/"
+   },
+   {
+    "id": "2.3",
+    "s": 1,
+    "n": "Two Sum",
+    "l": "E",
+    "k": "LC 1",
+    "u": "https://leetcode.com/problems/two-sum/"
+   },
+   {
+    "id": "2.4",
+    "s": 1,
+    "n": "Valid Anagram",
+    "l": "E",
+    "k": "LC 242",
+    "u": "https://leetcode.com/problems/valid-anagram/"
+   },
+   {
+    "id": "2.5",
+    "s": 0,
+    "n": "Ransom Note",
+    "l": "E",
+    "k": "LC 383",
+    "u": "https://leetcode.com/problems/ransom-note/"
+   },
+   {
+    "id": "2.6",
+    "s": 1,
+    "n": "Missing Number",
+    "l": "E",
+    "k": "LC 268",
+    "u": "https://leetcode.com/problems/missing-number/"
+   },
+   {
+    "id": "2.7",
+    "s": 0,
+    "n": "Single Number",
+    "l": "E",
+    "k": "LC 136",
+    "u": "https://leetcode.com/problems/single-number/"
+   },
+   {
+    "id": "2.8",
+    "s": 0,
+    "n": "Intersection of Two Arrays",
+    "l": "E",
+    "k": "LC 349",
+    "u": "https://leetcode.com/problems/intersection-of-two-arrays/"
+   },
+   {
+    "id": "2.9",
+    "s": 0,
+    "n": "Isomorphic Strings",
+    "l": "E",
+    "k": "LC 205",
+    "u": "https://leetcode.com/problems/isomorphic-strings/"
+   },
+   {
+    "id": "2.10",
+    "s": 0,
+    "n": "Word Pattern",
+    "l": "E",
+    "k": "LC 290",
+    "u": "https://leetcode.com/problems/word-pattern/"
+   },
+   {
+    "id": "2.11",
+    "s": 1,
+    "n": "Longest Consecutive Sequence",
+    "l": "M",
+    "k": "LC 128",
+    "u": "https://leetcode.com/problems/longest-consecutive-sequence/"
+   },
+   {
+    "id": "2.12",
+    "s": 1,
+    "n": "Group Anagrams",
+    "l": "M",
+    "k": "LC 49",
+    "u": "https://leetcode.com/problems/group-anagrams/"
+   },
+   {
+    "id": "2.13",
+    "s": 0,
+    "n": "4Sum II",
+    "l": "M",
+    "k": "LC 454",
+    "u": "https://leetcode.com/problems/4sum-ii/"
+   },
+   {
+    "id": "2.14",
+    "s": 1,
+    "n": "Top K Frequent Elements",
+    "l": "M",
+    "k": "LC 347",
+    "u": "https://leetcode.com/problems/top-k-frequent-elements/"
+   },
+   {
+    "id": "2.15",
+    "s": 0,
+    "n": "Sort Characters By Frequency",
+    "l": "M",
+    "k": "LC 451",
+    "u": "https://leetcode.com/problems/sort-characters-by-frequency/"
+   }
+  ]
+ },
+ {
+  "p": 3,
+  "t": "Two Pointers",
+  "w": "Week 4",
+  "learn": "Opposite-ends pointers · Read/write (slow-fast) pointers · Sort + fix one + two pointers (3Sum/4Sum) · Dutch National Flag",
+  "items": [
+   {
+    "id": "3.1",
+    "s": 0,
+    "n": "Reverse String",
+    "l": "E",
+    "k": "LC 344",
+    "u": "https://leetcode.com/problems/reverse-string/"
+   },
+   {
+    "id": "3.2",
+    "s": 1,
+    "n": "Move Zeroes",
+    "l": "E",
+    "k": "LC 283",
+    "u": "https://leetcode.com/problems/move-zeroes/"
+   },
+   {
+    "id": "3.3",
+    "s": 0,
+    "n": "Remove Element",
+    "l": "E",
+    "k": "LC 27",
+    "u": "https://leetcode.com/problems/remove-element/"
+   },
+   {
+    "id": "3.4",
+    "s": 1,
+    "n": "Valid Palindrome",
+    "l": "E",
+    "k": "LC 125",
+    "u": "https://leetcode.com/problems/valid-palindrome/"
+   },
+   {
+    "id": "3.5",
+    "s": 0,
+    "n": "Merge Strings Alternately",
+    "l": "E",
+    "k": "LC 1768",
+    "u": "https://leetcode.com/problems/merge-strings-alternately/"
+   },
+   {
+    "id": "3.6",
+    "s": 0,
+    "n": "Is Subsequence",
+    "l": "E",
+    "k": "LC 392",
+    "u": "https://leetcode.com/problems/is-subsequence/"
+   },
+   {
+    "id": "3.7",
+    "s": 0,
+    "n": "Reverse Vowels of a String",
+    "l": "E",
+    "k": "LC 345",
+    "u": "https://leetcode.com/problems/reverse-vowels-of-a-string/"
+   },
+   {
+    "id": "3.8",
+    "s": 1,
+    "n": "Squares of a Sorted Array",
+    "l": "E",
+    "k": "LC 977",
+    "u": "https://leetcode.com/problems/squares-of-a-sorted-array/"
+   },
+   {
+    "id": "3.9",
+    "s": 1,
+    "n": "Two Sum II",
+    "l": "M",
+    "k": "LC 167",
+    "u": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/"
+   },
+   {
+    "id": "3.10",
+    "s": 0,
+    "n": "Remove Duplicates from Sorted Array II",
+    "l": "M",
+    "k": "LC 80",
+    "u": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/"
+   },
+   {
+    "id": "3.11",
+    "s": 1,
+    "n": "Container With Most Water",
+    "l": "M",
+    "k": "LC 11",
+    "u": "https://leetcode.com/problems/container-with-most-water/"
+   },
+   {
+    "id": "3.12",
+    "s": 1,
+    "n": "3Sum",
+    "l": "M",
+    "k": "LC 15",
+    "u": "https://leetcode.com/problems/3sum/"
+   },
+   {
+    "id": "3.13",
+    "s": 0,
+    "n": "3Sum Closest",
+    "l": "M",
+    "k": "LC 16",
+    "u": "https://leetcode.com/problems/3sum-closest/"
+   },
+   {
+    "id": "3.14",
+    "s": 1,
+    "n": "4Sum",
+    "l": "M",
+    "k": "LC 18",
+    "u": "https://leetcode.com/problems/4sum/"
+   },
+   {
+    "id": "3.15",
+    "s": 1,
+    "n": "Sort Colors",
+    "l": "M",
+    "k": "LC 75",
+    "u": "https://leetcode.com/problems/sort-colors/"
+   },
+   {
+    "id": "3.16",
+    "s": 0,
+    "n": "Boats to Save People",
+    "l": "M",
+    "k": "LC 881",
+    "u": "https://leetcode.com/problems/boats-to-save-people/"
+   },
+   {
+    "id": "3.17",
+    "s": 0,
+    "n": "Bag of Tokens",
+    "l": "M",
+    "k": "LC 948",
+    "u": "https://leetcode.com/problems/bag-of-tokens/"
+   },
+   {
+    "id": "3.18",
+    "s": 1,
+    "n": "Trapping Rain Water",
+    "l": "H",
+    "k": "LC 42",
+    "u": "https://leetcode.com/problems/trapping-rain-water/"
+   }
+  ]
+ },
+ {
+  "p": 4,
+  "t": "Sliding Window",
+  "w": "Week 5",
+  "learn": "Fixed-size window · Variable-size window (expand/shrink) · Exactly K = atMost(K) − atMost(K−1) · Monotonic deque",
+  "items": [
+   {
+    "id": "4.1",
+    "s": 0,
+    "n": "Max Sum Subarray of Size K",
+    "l": "E",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1"
+   },
+   {
+    "id": "4.2",
+    "s": 0,
+    "n": "Maximum Average Subarray I",
+    "l": "E",
+    "k": "LC 643",
+    "u": "https://leetcode.com/problems/maximum-average-subarray-i/"
+   },
+   {
+    "id": "4.3",
+    "s": 0,
+    "n": "First Negative Integer in Every Window",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1"
+   },
+   {
+    "id": "4.4",
+    "s": 0,
+    "n": "Contains Duplicate II",
+    "l": "E",
+    "k": "LC 219",
+    "u": "https://leetcode.com/problems/contains-duplicate-ii/"
+   },
+   {
+    "id": "4.5",
+    "s": 1,
+    "n": "Longest Substring Without Repeating Characters",
+    "l": "M",
+    "k": "LC 3",
+    "u": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+   },
+   {
+    "id": "4.6",
+    "s": 1,
+    "n": "Minimum Size Subarray Sum",
+    "l": "M",
+    "k": "LC 209",
+    "u": "https://leetcode.com/problems/minimum-size-subarray-sum/"
+   },
+   {
+    "id": "4.7",
+    "s": 1,
+    "n": "Max Consecutive Ones III",
+    "l": "M",
+    "k": "LC 1004",
+    "u": "https://leetcode.com/problems/max-consecutive-ones-iii/"
+   },
+   {
+    "id": "4.8",
+    "s": 0,
+    "n": "Longest Subarray of 1's After Deleting One",
+    "l": "M",
+    "k": "LC 1493",
+    "u": "https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/"
+   },
+   {
+    "id": "4.9",
+    "s": 1,
+    "n": "Longest Repeating Character Replacement",
+    "l": "M",
+    "k": "LC 424",
+    "u": "https://leetcode.com/problems/longest-repeating-character-replacement/"
+   },
+   {
+    "id": "4.10",
+    "s": 1,
+    "n": "Fruit Into Baskets",
+    "l": "M",
+    "k": "LC 904",
+    "u": "https://leetcode.com/problems/fruit-into-baskets/"
+   },
+   {
+    "id": "4.11",
+    "s": 1,
+    "n": "Permutation in String",
+    "l": "M",
+    "k": "LC 567",
+    "u": "https://leetcode.com/problems/permutation-in-string/"
+   },
+   {
+    "id": "4.12",
+    "s": 1,
+    "n": "Find All Anagrams in a String",
+    "l": "M",
+    "k": "LC 438",
+    "u": "https://leetcode.com/problems/find-all-anagrams-in-a-string/"
+   },
+   {
+    "id": "4.13",
+    "s": 0,
+    "n": "Maximum Points You Can Obtain from Cards",
+    "l": "M",
+    "k": "LC 1423",
+    "u": "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/"
+   },
+   {
+    "id": "4.14",
+    "s": 0,
+    "n": "Number of Substrings Containing All Three Characters",
+    "l": "M",
+    "k": "LC 1358",
+    "u": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/"
+   },
+   {
+    "id": "4.15",
+    "s": 0,
+    "n": "Binary Subarrays With Sum",
+    "l": "M",
+    "k": "LC 930",
+    "u": "https://leetcode.com/problems/binary-subarrays-with-sum/"
+   },
+   {
+    "id": "4.16",
+    "s": 0,
+    "n": "Count Number of Nice Subarrays",
+    "l": "M",
+    "k": "LC 1248",
+    "u": "https://leetcode.com/problems/count-number-of-nice-subarrays/"
+   },
+   {
+    "id": "4.17",
+    "s": 0,
+    "n": "Subarrays with K Different Integers",
+    "l": "H",
+    "k": "LC 992",
+    "u": "https://leetcode.com/problems/subarrays-with-k-different-integers/"
+   },
+   {
+    "id": "4.18",
+    "s": 1,
+    "n": "Sliding Window Maximum",
+    "l": "H",
+    "k": "LC 239",
+    "u": "https://leetcode.com/problems/sliding-window-maximum/"
+   },
+   {
+    "id": "4.19",
+    "s": 1,
+    "n": "Minimum Window Substring",
+    "l": "H",
+    "k": "LC 76",
+    "u": "https://leetcode.com/problems/minimum-window-substring/"
+   }
+  ]
+ },
+ {
+  "p": 5,
+  "t": "Prefix Sum & Difference Array",
+  "w": "Week 6",
+  "learn": "Prefix sum array · Prefix sum + HashMap (negatives allowed) · Prefix remainder · Difference array · 2D prefix sum · Prefix XOR",
+  "items": [
+   {
+    "id": "5.1",
+    "s": 0,
+    "n": "Running Sum of 1D Array",
+    "l": "E",
+    "k": "LC 1480",
+    "u": "https://leetcode.com/problems/running-sum-of-1d-array/"
+   },
+   {
+    "id": "5.2",
+    "s": 0,
+    "n": "Find the Highest Altitude",
+    "l": "E",
+    "k": "LC 1732",
+    "u": "https://leetcode.com/problems/find-the-highest-altitude/"
+   },
+   {
+    "id": "5.3",
+    "s": 1,
+    "n": "Range Sum Query - Immutable",
+    "l": "E",
+    "k": "LC 303",
+    "u": "https://leetcode.com/problems/range-sum-query-immutable/"
+   },
+   {
+    "id": "5.4",
+    "s": 1,
+    "n": "Find Pivot Index",
+    "l": "E",
+    "k": "LC 724",
+    "u": "https://leetcode.com/problems/find-pivot-index/"
+   },
+   {
+    "id": "5.5",
+    "s": 1,
+    "n": "Product of Array Except Self",
+    "l": "M",
+    "k": "LC 238",
+    "u": "https://leetcode.com/problems/product-of-array-except-self/"
+   },
+   {
+    "id": "5.6",
+    "s": 1,
+    "n": "Subarray Sum Equals K",
+    "l": "M",
+    "k": "LC 560",
+    "u": "https://leetcode.com/problems/subarray-sum-equals-k/"
+   },
+   {
+    "id": "5.7",
+    "s": 1,
+    "n": "Longest Sub-Array with Sum K",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1"
+   },
+   {
+    "id": "5.8",
+    "s": 1,
+    "n": "Contiguous Array",
+    "l": "M",
+    "k": "LC 525",
+    "u": "https://leetcode.com/problems/contiguous-array/"
+   },
+   {
+    "id": "5.9",
+    "s": 0,
+    "n": "Subarray Sums Divisible by K",
+    "l": "M",
+    "k": "LC 974",
+    "u": "https://leetcode.com/problems/subarray-sums-divisible-by-k/"
+   },
+   {
+    "id": "5.10",
+    "s": 0,
+    "n": "Continuous Subarray Sum",
+    "l": "M",
+    "k": "LC 523",
+    "u": "https://leetcode.com/problems/continuous-subarray-sum/"
+   },
+   {
+    "id": "5.11",
+    "s": 0,
+    "n": "Corporate Flight Bookings",
+    "l": "M",
+    "k": "LC 1109",
+    "u": "https://leetcode.com/problems/corporate-flight-bookings/"
+   },
+   {
+    "id": "5.12",
+    "s": 0,
+    "n": "Car Pooling",
+    "l": "M",
+    "k": "LC 1094",
+    "u": "https://leetcode.com/problems/car-pooling/"
+   },
+   {
+    "id": "5.13",
+    "s": 0,
+    "n": "Range Sum Query 2D - Immutable",
+    "l": "M",
+    "k": "LC 304",
+    "u": "https://leetcode.com/problems/range-sum-query-2d-immutable/"
+   },
+   {
+    "id": "5.14",
+    "s": 0,
+    "n": "XOR Queries of a Subarray",
+    "l": "M",
+    "k": "LC 1310",
+    "u": "https://leetcode.com/problems/xor-queries-of-a-subarray/"
+   }
+  ]
+ },
+ {
+  "p": 6,
+  "t": "Binary Search: on Index and on Answer",
+  "w": "Weeks 7–8",
+  "learn": "Binary search on index · Lower/upper bound · Rotated sorted arrays · Peak finding · Binary search on answer (min/max feasibility)",
+  "items": [
+   {
+    "id": "6.1",
+    "s": 1,
+    "n": "Binary Search",
+    "l": "E",
+    "k": "LC 704",
+    "u": "https://leetcode.com/problems/binary-search/"
+   },
+   {
+    "id": "6.2",
+    "s": 1,
+    "n": "Search Insert Position",
+    "l": "E",
+    "k": "LC 35",
+    "u": "https://leetcode.com/problems/search-insert-position/"
+   },
+   {
+    "id": "6.3",
+    "s": 1,
+    "n": "Find First and Last Position",
+    "l": "M",
+    "k": "LC 34",
+    "u": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/"
+   },
+   {
+    "id": "6.4",
+    "s": 0,
+    "n": "Find Smallest Letter Greater Than Target",
+    "l": "E",
+    "k": "LC 744",
+    "u": "https://leetcode.com/problems/find-smallest-letter-greater-than-target/"
+   },
+   {
+    "id": "6.5",
+    "s": 0,
+    "n": "Sqrt(x)",
+    "l": "E",
+    "k": "LC 69",
+    "u": "https://leetcode.com/problems/sqrtx/"
+   },
+   {
+    "id": "6.6",
+    "s": 1,
+    "n": "Search in Rotated Sorted Array",
+    "l": "M",
+    "k": "LC 33",
+    "u": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+   },
+   {
+    "id": "6.7",
+    "s": 0,
+    "n": "Search in Rotated Sorted Array II",
+    "l": "M",
+    "k": "LC 81",
+    "u": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/"
+   },
+   {
+    "id": "6.8",
+    "s": 1,
+    "n": "Find Minimum in Rotated Sorted Array",
+    "l": "M",
+    "k": "LC 153",
+    "u": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/"
+   },
+   {
+    "id": "6.9",
+    "s": 0,
+    "n": "Single Element in a Sorted Array",
+    "l": "M",
+    "k": "LC 540",
+    "u": "https://leetcode.com/problems/single-element-in-a-sorted-array/"
+   },
+   {
+    "id": "6.10",
+    "s": 1,
+    "n": "Find Peak Element",
+    "l": "M",
+    "k": "LC 162",
+    "u": "https://leetcode.com/problems/find-peak-element/"
+   },
+   {
+    "id": "6.11",
+    "s": 1,
+    "n": "Search a 2D Matrix",
+    "l": "M",
+    "k": "LC 74",
+    "u": "https://leetcode.com/problems/search-a-2d-matrix/"
+   },
+   {
+    "id": "6.12",
+    "s": 0,
+    "n": "Search a 2D Matrix II",
+    "l": "M",
+    "k": "LC 240",
+    "u": "https://leetcode.com/problems/search-a-2d-matrix-ii/"
+   },
+   {
+    "id": "6.13",
+    "s": 0,
+    "n": "Kth Missing Positive Number",
+    "l": "E",
+    "k": "LC 1539",
+    "u": "https://leetcode.com/problems/kth-missing-positive-number/"
+   },
+   {
+    "id": "6.14",
+    "s": 0,
+    "n": "Find K Closest Elements",
+    "l": "M",
+    "k": "LC 658",
+    "u": "https://leetcode.com/problems/find-k-closest-elements/"
+   },
+   {
+    "id": "6.15",
+    "s": 1,
+    "n": "Koko Eating Bananas",
+    "l": "M",
+    "k": "LC 875",
+    "u": "https://leetcode.com/problems/koko-eating-bananas/"
+   },
+   {
+    "id": "6.16",
+    "s": 1,
+    "n": "Capacity To Ship Packages Within D Days",
+    "l": "M",
+    "k": "LC 1011",
+    "u": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/"
+   },
+   {
+    "id": "6.17",
+    "s": 0,
+    "n": "Find the Smallest Divisor Given a Threshold",
+    "l": "M",
+    "k": "LC 1283",
+    "u": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/"
+   },
+   {
+    "id": "6.18",
+    "s": 1,
+    "n": "Minimum Number of Days to Make m Bouquets",
+    "l": "M",
+    "k": "LC 1482",
+    "u": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/"
+   },
+   {
+    "id": "6.19",
+    "s": 1,
+    "n": "Aggressive Cows",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/aggressive-cows/1"
+   },
+   {
+    "id": "6.20",
+    "s": 0,
+    "n": "Magnetic Force Between Two Balls",
+    "l": "M",
+    "k": "LC 1552",
+    "u": "https://leetcode.com/problems/magnetic-force-between-two-balls/"
+   },
+   {
+    "id": "6.21",
+    "s": 1,
+    "n": "Split Array Largest Sum",
+    "l": "H",
+    "k": "LC 410",
+    "u": "https://leetcode.com/problems/split-array-largest-sum/"
+   },
+   {
+    "id": "6.22",
+    "s": 0,
+    "n": "Find a Peak Element II",
+    "l": "M",
+    "k": "LC 1901",
+    "u": "https://leetcode.com/problems/find-a-peak-element-ii/"
+   },
+   {
+    "id": "6.23",
+    "s": 0,
+    "n": "Median of Two Sorted Arrays",
+    "l": "H",
+    "k": "LC 4",
+    "u": "https://leetcode.com/problems/median-of-two-sorted-arrays/"
+   }
+  ]
+ },
+ {
+  "p": 7,
+  "t": "Strings & Pattern Matching",
+  "w": "Week 9",
+  "learn": "String basics & StringBuilder · Expand around center (palindromes) · KMP & lps array · Rabin-Karp / Z-algorithm (concept)",
+  "items": [
+   {
+    "id": "7.1",
+    "s": 1,
+    "n": "Longest Common Prefix",
+    "l": "E",
+    "k": "LC 14",
+    "u": "https://leetcode.com/problems/longest-common-prefix/"
+   },
+   {
+    "id": "7.2",
+    "s": 0,
+    "n": "Roman to Integer",
+    "l": "E",
+    "k": "LC 13",
+    "u": "https://leetcode.com/problems/roman-to-integer/"
+   },
+   {
+    "id": "7.3",
+    "s": 0,
+    "n": "Integer to Roman",
+    "l": "M",
+    "k": "LC 12",
+    "u": "https://leetcode.com/problems/integer-to-roman/"
+   },
+   {
+    "id": "7.4",
+    "s": 1,
+    "n": "Reverse Words in a String",
+    "l": "M",
+    "k": "LC 151",
+    "u": "https://leetcode.com/problems/reverse-words-in-a-string/"
+   },
+   {
+    "id": "7.5",
+    "s": 0,
+    "n": "Rotate String",
+    "l": "E",
+    "k": "LC 796",
+    "u": "https://leetcode.com/problems/rotate-string/"
+   },
+   {
+    "id": "7.6",
+    "s": 1,
+    "n": "String to Integer (atoi)",
+    "l": "M",
+    "k": "LC 8",
+    "u": "https://leetcode.com/problems/string-to-integer-atoi/"
+   },
+   {
+    "id": "7.7",
+    "s": 1,
+    "n": "Valid Palindrome II",
+    "l": "E",
+    "k": "LC 680",
+    "u": "https://leetcode.com/problems/valid-palindrome-ii/"
+   },
+   {
+    "id": "7.8",
+    "s": 0,
+    "n": "Repeated Substring Pattern",
+    "l": "E",
+    "k": "LC 459",
+    "u": "https://leetcode.com/problems/repeated-substring-pattern/"
+   },
+   {
+    "id": "7.9",
+    "s": 1,
+    "n": "Longest Palindromic Substring",
+    "l": "M",
+    "k": "LC 5",
+    "u": "https://leetcode.com/problems/longest-palindromic-substring/"
+   },
+   {
+    "id": "7.10",
+    "s": 1,
+    "n": "Palindromic Substrings",
+    "l": "M",
+    "k": "LC 647",
+    "u": "https://leetcode.com/problems/palindromic-substrings/"
+   },
+   {
+    "id": "7.11",
+    "s": 0,
+    "n": "Sum of Beauty of All Substrings",
+    "l": "M",
+    "k": "LC 1781",
+    "u": "https://leetcode.com/problems/sum-of-beauty-of-all-substrings/"
+   },
+   {
+    "id": "7.12",
+    "s": 1,
+    "n": "Find the Index of the First Occurrence",
+    "l": "E",
+    "k": "LC 28",
+    "u": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/"
+   },
+   {
+    "id": "7.13",
+    "s": 0,
+    "n": "Repeated String Match",
+    "l": "M",
+    "k": "LC 686",
+    "u": "https://leetcode.com/problems/repeated-string-match/"
+   },
+   {
+    "id": "7.14",
+    "s": 0,
+    "n": "Longest Happy Prefix",
+    "l": "H",
+    "k": "LC 1392",
+    "u": "https://leetcode.com/problems/longest-happy-prefix/"
+   },
+   {
+    "id": "7.15",
+    "s": 0,
+    "n": "Shortest Palindrome",
+    "l": "H",
+    "k": "LC 214",
+    "u": "https://leetcode.com/problems/shortest-palindrome/"
+   }
+  ]
+ },
+ {
+  "p": 8,
+  "t": "Matrix / 2D Arrays",
+  "w": "Week 9",
+  "learn": "Boundary traversal (spiral) · Transpose + reverse (rotate) · In-place markers",
+  "items": [
+   {
+    "id": "8.1",
+    "s": 1,
+    "n": "Set Matrix Zeroes",
+    "l": "M",
+    "k": "LC 73",
+    "u": "https://leetcode.com/problems/set-matrix-zeroes/"
+   },
+   {
+    "id": "8.2",
+    "s": 1,
+    "n": "Spiral Matrix",
+    "l": "M",
+    "k": "LC 54",
+    "u": "https://leetcode.com/problems/spiral-matrix/"
+   },
+   {
+    "id": "8.3",
+    "s": 1,
+    "n": "Rotate Image",
+    "l": "M",
+    "k": "LC 48",
+    "u": "https://leetcode.com/problems/rotate-image/"
+   },
+   {
+    "id": "8.4",
+    "s": 0,
+    "n": "Spiral Matrix II",
+    "l": "M",
+    "k": "LC 59",
+    "u": "https://leetcode.com/problems/spiral-matrix-ii/"
+   },
+   {
+    "id": "8.5",
+    "s": 1,
+    "n": "Game of Life",
+    "l": "M",
+    "k": "LC 289",
+    "u": "https://leetcode.com/problems/game-of-life/"
+   }
+  ]
+ },
+ {
+  "p": 9,
+  "t": "Recursion & Backtracking",
+  "w": "Weeks 10–11",
+  "learn": "Recursion & recursion tree · Pick / not-pick · Loop-from-start with duplicate skipping · Permutations with used[] · Pruning · Board backtracking",
+  "items": [
+   {
+    "id": "9.1",
+    "s": 0,
+    "n": "Fibonacci Number",
+    "l": "E",
+    "k": "LC 509",
+    "u": "https://leetcode.com/problems/fibonacci-number/"
+   },
+   {
+    "id": "9.2",
+    "s": 1,
+    "n": "Subsets",
+    "l": "M",
+    "k": "LC 78",
+    "u": "https://leetcode.com/problems/subsets/"
+   },
+   {
+    "id": "9.3",
+    "s": 1,
+    "n": "Subsets II",
+    "l": "M",
+    "k": "LC 90",
+    "u": "https://leetcode.com/problems/subsets-ii/"
+   },
+   {
+    "id": "9.4",
+    "s": 1,
+    "n": "Permutations",
+    "l": "M",
+    "k": "LC 46",
+    "u": "https://leetcode.com/problems/permutations/"
+   },
+   {
+    "id": "9.5",
+    "s": 0,
+    "n": "Permutations II",
+    "l": "M",
+    "k": "LC 47",
+    "u": "https://leetcode.com/problems/permutations-ii/"
+   },
+   {
+    "id": "9.6",
+    "s": 1,
+    "n": "Combination Sum",
+    "l": "M",
+    "k": "LC 39",
+    "u": "https://leetcode.com/problems/combination-sum/"
+   },
+   {
+    "id": "9.7",
+    "s": 1,
+    "n": "Combination Sum II",
+    "l": "M",
+    "k": "LC 40",
+    "u": "https://leetcode.com/problems/combination-sum-ii/"
+   },
+   {
+    "id": "9.8",
+    "s": 0,
+    "n": "Combination Sum III",
+    "l": "M",
+    "k": "LC 216",
+    "u": "https://leetcode.com/problems/combination-sum-iii/"
+   },
+   {
+    "id": "9.9",
+    "s": 1,
+    "n": "Letter Combinations of a Phone Number",
+    "l": "M",
+    "k": "LC 17",
+    "u": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/"
+   },
+   {
+    "id": "9.10",
+    "s": 1,
+    "n": "Generate Parentheses",
+    "l": "M",
+    "k": "LC 22",
+    "u": "https://leetcode.com/problems/generate-parentheses/"
+   },
+   {
+    "id": "9.11",
+    "s": 1,
+    "n": "Palindrome Partitioning",
+    "l": "M",
+    "k": "LC 131",
+    "u": "https://leetcode.com/problems/palindrome-partitioning/"
+   },
+   {
+    "id": "9.12",
+    "s": 1,
+    "n": "Word Search",
+    "l": "M",
+    "k": "LC 79",
+    "u": "https://leetcode.com/problems/word-search/"
+   },
+   {
+    "id": "9.13",
+    "s": 0,
+    "n": "Rat in a Maze",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1"
+   },
+   {
+    "id": "9.14",
+    "s": 0,
+    "n": "M-Coloring Problem",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1"
+   },
+   {
+    "id": "9.15",
+    "s": 0,
+    "n": "N-Queens",
+    "l": "H",
+    "k": "LC 51",
+    "u": "https://leetcode.com/problems/n-queens/"
+   },
+   {
+    "id": "9.16",
+    "s": 0,
+    "n": "Sudoku Solver",
+    "l": "H",
+    "k": "LC 37",
+    "u": "https://leetcode.com/problems/sudoku-solver/"
+   }
+  ]
+ },
+ {
+  "p": 10,
+  "t": "Linked List",
+  "w": "Week 12",
+  "learn": "Dummy node · In-place reversal · Slow-fast pointers (middle, Floyd cycle) · Gap-of-n pointers · Merge sort on lists",
+  "items": [
+   {
+    "id": "10.1",
+    "s": 0,
+    "n": "Design Linked List",
+    "l": "M",
+    "k": "LC 707",
+    "u": "https://leetcode.com/problems/design-linked-list/"
+   },
+   {
+    "id": "10.2",
+    "s": 0,
+    "n": "Delete Node in a Linked List",
+    "l": "M",
+    "k": "LC 237",
+    "u": "https://leetcode.com/problems/delete-node-in-a-linked-list/"
+   },
+   {
+    "id": "10.3",
+    "s": 0,
+    "n": "Remove Duplicates from Sorted List",
+    "l": "E",
+    "k": "LC 83",
+    "u": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/"
+   },
+   {
+    "id": "10.4",
+    "s": 1,
+    "n": "Reverse Linked List",
+    "l": "E",
+    "k": "LC 206",
+    "u": "https://leetcode.com/problems/reverse-linked-list/"
+   },
+   {
+    "id": "10.5",
+    "s": 1,
+    "n": "Middle of the Linked List",
+    "l": "E",
+    "k": "LC 876",
+    "u": "https://leetcode.com/problems/middle-of-the-linked-list/"
+   },
+   {
+    "id": "10.6",
+    "s": 1,
+    "n": "Merge Two Sorted Lists",
+    "l": "E",
+    "k": "LC 21",
+    "u": "https://leetcode.com/problems/merge-two-sorted-lists/"
+   },
+   {
+    "id": "10.7",
+    "s": 1,
+    "n": "Linked List Cycle",
+    "l": "E",
+    "k": "LC 141",
+    "u": "https://leetcode.com/problems/linked-list-cycle/"
+   },
+   {
+    "id": "10.8",
+    "s": 1,
+    "n": "Linked List Cycle II",
+    "l": "M",
+    "k": "LC 142",
+    "u": "https://leetcode.com/problems/linked-list-cycle-ii/"
+   },
+   {
+    "id": "10.9",
+    "s": 1,
+    "n": "Remove Nth Node From End of List",
+    "l": "M",
+    "k": "LC 19",
+    "u": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+   },
+   {
+    "id": "10.10",
+    "s": 1,
+    "n": "Intersection of Two Linked Lists",
+    "l": "E",
+    "k": "LC 160",
+    "u": "https://leetcode.com/problems/intersection-of-two-linked-lists/"
+   },
+   {
+    "id": "10.11",
+    "s": 1,
+    "n": "Palindrome Linked List",
+    "l": "E",
+    "k": "LC 234",
+    "u": "https://leetcode.com/problems/palindrome-linked-list/"
+   },
+   {
+    "id": "10.12",
+    "s": 0,
+    "n": "Odd Even Linked List",
+    "l": "M",
+    "k": "LC 328",
+    "u": "https://leetcode.com/problems/odd-even-linked-list/"
+   },
+   {
+    "id": "10.13",
+    "s": 1,
+    "n": "Add Two Numbers",
+    "l": "M",
+    "k": "LC 2",
+    "u": "https://leetcode.com/problems/add-two-numbers/"
+   },
+   {
+    "id": "10.14",
+    "s": 0,
+    "n": "Rotate List",
+    "l": "M",
+    "k": "LC 61",
+    "u": "https://leetcode.com/problems/rotate-list/"
+   },
+   {
+    "id": "10.15",
+    "s": 1,
+    "n": "Reorder List",
+    "l": "M",
+    "k": "LC 143",
+    "u": "https://leetcode.com/problems/reorder-list/"
+   },
+   {
+    "id": "10.16",
+    "s": 0,
+    "n": "Sort List",
+    "l": "M",
+    "k": "LC 148",
+    "u": "https://leetcode.com/problems/sort-list/"
+   },
+   {
+    "id": "10.17",
+    "s": 1,
+    "n": "Copy List with Random Pointer",
+    "l": "M",
+    "k": "LC 138",
+    "u": "https://leetcode.com/problems/copy-list-with-random-pointer/"
+   },
+   {
+    "id": "10.18",
+    "s": 0,
+    "n": "Flatten a Multilevel Doubly Linked List",
+    "l": "M",
+    "k": "LC 430",
+    "u": "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/"
+   },
+   {
+    "id": "10.19",
+    "s": 0,
+    "n": "Reverse Nodes in k-Group",
+    "l": "H",
+    "k": "LC 25",
+    "u": "https://leetcode.com/problems/reverse-nodes-in-k-group/"
+   }
+  ]
+ },
+ {
+  "p": 11,
+  "t": "Stack & Queue, Monotonic Stack",
+  "w": "Week 13",
+  "learn": "Stack & queue basics · Bracket matching · Expression evaluation · Monotonic stack (next/previous greater/smaller) · Contribution technique",
+  "items": [
+   {
+    "id": "11.1",
+    "s": 1,
+    "n": "Valid Parentheses",
+    "l": "E",
+    "k": "LC 20",
+    "u": "https://leetcode.com/problems/valid-parentheses/"
+   },
+   {
+    "id": "11.2",
+    "s": 1,
+    "n": "Min Stack",
+    "l": "M",
+    "k": "LC 155",
+    "u": "https://leetcode.com/problems/min-stack/"
+   },
+   {
+    "id": "11.3",
+    "s": 1,
+    "n": "Implement Queue using Stacks",
+    "l": "E",
+    "k": "LC 232",
+    "u": "https://leetcode.com/problems/implement-queue-using-stacks/"
+   },
+   {
+    "id": "11.4",
+    "s": 0,
+    "n": "Implement Stack using Queues",
+    "l": "E",
+    "k": "LC 225",
+    "u": "https://leetcode.com/problems/implement-stack-using-queues/"
+   },
+   {
+    "id": "11.5",
+    "s": 0,
+    "n": "Remove All Adjacent Duplicates In String",
+    "l": "E",
+    "k": "LC 1047",
+    "u": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/"
+   },
+   {
+    "id": "11.6",
+    "s": 0,
+    "n": "Minimum Add to Make Parentheses Valid",
+    "l": "M",
+    "k": "LC 921",
+    "u": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/"
+   },
+   {
+    "id": "11.7",
+    "s": 1,
+    "n": "Evaluate Reverse Polish Notation",
+    "l": "M",
+    "k": "LC 150",
+    "u": "https://leetcode.com/problems/evaluate-reverse-polish-notation/"
+   },
+   {
+    "id": "11.8",
+    "s": 0,
+    "n": "Simplify Path",
+    "l": "M",
+    "k": "LC 71",
+    "u": "https://leetcode.com/problems/simplify-path/"
+   },
+   {
+    "id": "11.9",
+    "s": 1,
+    "n": "Decode String",
+    "l": "M",
+    "k": "LC 394",
+    "u": "https://leetcode.com/problems/decode-string/"
+   },
+   {
+    "id": "11.10",
+    "s": 1,
+    "n": "Asteroid Collision",
+    "l": "M",
+    "k": "LC 735",
+    "u": "https://leetcode.com/problems/asteroid-collision/"
+   },
+   {
+    "id": "11.11",
+    "s": 0,
+    "n": "Next Greater Element I",
+    "l": "E",
+    "k": "LC 496",
+    "u": "https://leetcode.com/problems/next-greater-element-i/"
+   },
+   {
+    "id": "11.12",
+    "s": 1,
+    "n": "Daily Temperatures",
+    "l": "M",
+    "k": "LC 739",
+    "u": "https://leetcode.com/problems/daily-temperatures/"
+   },
+   {
+    "id": "11.13",
+    "s": 1,
+    "n": "Next Greater Element II",
+    "l": "M",
+    "k": "LC 503",
+    "u": "https://leetcode.com/problems/next-greater-element-ii/"
+   },
+   {
+    "id": "11.14",
+    "s": 1,
+    "n": "Online Stock Span",
+    "l": "M",
+    "k": "LC 901",
+    "u": "https://leetcode.com/problems/online-stock-span/"
+   },
+   {
+    "id": "11.15",
+    "s": 0,
+    "n": "Car Fleet",
+    "l": "M",
+    "k": "LC 853",
+    "u": "https://leetcode.com/problems/car-fleet/"
+   },
+   {
+    "id": "11.16",
+    "s": 1,
+    "n": "Remove K Digits",
+    "l": "M",
+    "k": "LC 402",
+    "u": "https://leetcode.com/problems/remove-k-digits/"
+   },
+   {
+    "id": "11.17",
+    "s": 0,
+    "n": "Sum of Subarray Minimums",
+    "l": "M",
+    "k": "LC 907",
+    "u": "https://leetcode.com/problems/sum-of-subarray-minimums/"
+   },
+   {
+    "id": "11.18",
+    "s": 0,
+    "n": "Sum of Subarray Ranges",
+    "l": "M",
+    "k": "LC 2104",
+    "u": "https://leetcode.com/problems/sum-of-subarray-ranges/"
+   },
+   {
+    "id": "11.19",
+    "s": 1,
+    "n": "Largest Rectangle in Histogram",
+    "l": "H",
+    "k": "LC 84",
+    "u": "https://leetcode.com/problems/largest-rectangle-in-histogram/"
+   },
+   {
+    "id": "11.20",
+    "s": 0,
+    "n": "Maximal Rectangle",
+    "l": "H",
+    "k": "LC 85",
+    "u": "https://leetcode.com/problems/maximal-rectangle/"
+   }
+  ]
+ },
+ {
+  "p": 12,
+  "t": "Greedy & Intervals",
+  "w": "Week 14",
+  "learn": "Greedy choice & exchange argument · Sort by start (merge) · Sort by end (selection) · Sweep line (max overlap)",
+  "items": [
+   {
+    "id": "12.1",
+    "s": 0,
+    "n": "Assign Cookies",
+    "l": "E",
+    "k": "LC 455",
+    "u": "https://leetcode.com/problems/assign-cookies/"
+   },
+   {
+    "id": "12.2",
+    "s": 0,
+    "n": "Lemonade Change",
+    "l": "E",
+    "k": "LC 860",
+    "u": "https://leetcode.com/problems/lemonade-change/"
+   },
+   {
+    "id": "12.3",
+    "s": 0,
+    "n": "Fractional Knapsack",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1"
+   },
+   {
+    "id": "12.4",
+    "s": 1,
+    "n": "Jump Game",
+    "l": "M",
+    "k": "LC 55",
+    "u": "https://leetcode.com/problems/jump-game/"
+   },
+   {
+    "id": "12.5",
+    "s": 1,
+    "n": "Jump Game II",
+    "l": "M",
+    "k": "LC 45",
+    "u": "https://leetcode.com/problems/jump-game-ii/"
+   },
+   {
+    "id": "12.6",
+    "s": 1,
+    "n": "Gas Station",
+    "l": "M",
+    "k": "LC 134",
+    "u": "https://leetcode.com/problems/gas-station/"
+   },
+   {
+    "id": "12.7",
+    "s": 0,
+    "n": "Candy",
+    "l": "H",
+    "k": "LC 135",
+    "u": "https://leetcode.com/problems/candy/"
+   },
+   {
+    "id": "12.8",
+    "s": 1,
+    "n": "Partition Labels",
+    "l": "M",
+    "k": "LC 763",
+    "u": "https://leetcode.com/problems/partition-labels/"
+   },
+   {
+    "id": "12.9",
+    "s": 0,
+    "n": "Valid Parenthesis String",
+    "l": "M",
+    "k": "LC 678",
+    "u": "https://leetcode.com/problems/valid-parenthesis-string/"
+   },
+   {
+    "id": "12.10",
+    "s": 0,
+    "n": "Hand of Straights",
+    "l": "M",
+    "k": "LC 846",
+    "u": "https://leetcode.com/problems/hand-of-straights/"
+   },
+   {
+    "id": "12.11",
+    "s": 1,
+    "n": "Merge Intervals",
+    "l": "M",
+    "k": "LC 56",
+    "u": "https://leetcode.com/problems/merge-intervals/"
+   },
+   {
+    "id": "12.12",
+    "s": 1,
+    "n": "Insert Interval",
+    "l": "M",
+    "k": "LC 57",
+    "u": "https://leetcode.com/problems/insert-interval/"
+   },
+   {
+    "id": "12.13",
+    "s": 1,
+    "n": "Non-overlapping Intervals",
+    "l": "M",
+    "k": "LC 435",
+    "u": "https://leetcode.com/problems/non-overlapping-intervals/"
+   },
+   {
+    "id": "12.14",
+    "s": 0,
+    "n": "Minimum Number of Arrows to Burst Balloons",
+    "l": "M",
+    "k": "LC 452",
+    "u": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/"
+   },
+   {
+    "id": "12.15",
+    "s": 1,
+    "n": "N Meetings in One Room",
+    "l": "E",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1"
+   },
+   {
+    "id": "12.16",
+    "s": 1,
+    "n": "Minimum Platforms",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1"
+   },
+   {
+    "id": "12.17",
+    "s": 0,
+    "n": "Job Sequencing Problem",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1"
+   }
+  ]
+ },
+ {
+  "p": 13,
+  "t": "Binary Trees",
+  "w": "Weeks 15–16",
+  "learn": "Traversals: recursive + iterative, level order · Height-return pattern · Views (top/bottom/right/vertical), boundary · LCA · Parent map + BFS · Tree construction · Serialization",
+  "items": [
+   {
+    "id": "13.1",
+    "s": 1,
+    "n": "Binary Tree Inorder Traversal",
+    "l": "E",
+    "k": "LC 94",
+    "u": "https://leetcode.com/problems/binary-tree-inorder-traversal/"
+   },
+   {
+    "id": "13.2",
+    "s": 1,
+    "n": "Binary Tree Preorder Traversal",
+    "l": "E",
+    "k": "LC 144",
+    "u": "https://leetcode.com/problems/binary-tree-preorder-traversal/"
+   },
+   {
+    "id": "13.3",
+    "s": 0,
+    "n": "Binary Tree Postorder Traversal",
+    "l": "E",
+    "k": "LC 145",
+    "u": "https://leetcode.com/problems/binary-tree-postorder-traversal/"
+   },
+   {
+    "id": "13.4",
+    "s": 1,
+    "n": "Binary Tree Level Order Traversal",
+    "l": "M",
+    "k": "LC 102",
+    "u": "https://leetcode.com/problems/binary-tree-level-order-traversal/"
+   },
+   {
+    "id": "13.5",
+    "s": 1,
+    "n": "Maximum Depth of Binary Tree",
+    "l": "E",
+    "k": "LC 104",
+    "u": "https://leetcode.com/problems/maximum-depth-of-binary-tree/"
+   },
+   {
+    "id": "13.6",
+    "s": 0,
+    "n": "Minimum Depth of Binary Tree",
+    "l": "E",
+    "k": "LC 111",
+    "u": "https://leetcode.com/problems/minimum-depth-of-binary-tree/"
+   },
+   {
+    "id": "13.7",
+    "s": 1,
+    "n": "Invert Binary Tree",
+    "l": "E",
+    "k": "LC 226",
+    "u": "https://leetcode.com/problems/invert-binary-tree/"
+   },
+   {
+    "id": "13.8",
+    "s": 1,
+    "n": "Same Tree",
+    "l": "E",
+    "k": "LC 100",
+    "u": "https://leetcode.com/problems/same-tree/"
+   },
+   {
+    "id": "13.9",
+    "s": 1,
+    "n": "Symmetric Tree",
+    "l": "E",
+    "k": "LC 101",
+    "u": "https://leetcode.com/problems/symmetric-tree/"
+   },
+   {
+    "id": "13.10",
+    "s": 1,
+    "n": "Balanced Binary Tree",
+    "l": "E",
+    "k": "LC 110",
+    "u": "https://leetcode.com/problems/balanced-binary-tree/"
+   },
+   {
+    "id": "13.11",
+    "s": 1,
+    "n": "Diameter of Binary Tree",
+    "l": "E",
+    "k": "LC 543",
+    "u": "https://leetcode.com/problems/diameter-of-binary-tree/"
+   },
+   {
+    "id": "13.12",
+    "s": 0,
+    "n": "Path Sum",
+    "l": "E",
+    "k": "LC 112",
+    "u": "https://leetcode.com/problems/path-sum/"
+   },
+   {
+    "id": "13.13",
+    "s": 0,
+    "n": "Path Sum II",
+    "l": "M",
+    "k": "LC 113",
+    "u": "https://leetcode.com/problems/path-sum-ii/"
+   },
+   {
+    "id": "13.14",
+    "s": 0,
+    "n": "Subtree of Another Tree",
+    "l": "E",
+    "k": "LC 572",
+    "u": "https://leetcode.com/problems/subtree-of-another-tree/"
+   },
+   {
+    "id": "13.15",
+    "s": 1,
+    "n": "Zigzag Level Order Traversal",
+    "l": "M",
+    "k": "LC 103",
+    "u": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/"
+   },
+   {
+    "id": "13.16",
+    "s": 1,
+    "n": "Binary Tree Right Side View",
+    "l": "M",
+    "k": "LC 199",
+    "u": "https://leetcode.com/problems/binary-tree-right-side-view/"
+   },
+   {
+    "id": "13.17",
+    "s": 0,
+    "n": "Top View of Binary Tree",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1"
+   },
+   {
+    "id": "13.18",
+    "s": 0,
+    "n": "Bottom View of Binary Tree",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1"
+   },
+   {
+    "id": "13.19",
+    "s": 0,
+    "n": "Boundary Traversal",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1"
+   },
+   {
+    "id": "13.20",
+    "s": 1,
+    "n": "Vertical Order Traversal",
+    "l": "H",
+    "k": "LC 987",
+    "u": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/"
+   },
+   {
+    "id": "13.21",
+    "s": 1,
+    "n": "Lowest Common Ancestor of a Binary Tree",
+    "l": "M",
+    "k": "LC 236",
+    "u": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/"
+   },
+   {
+    "id": "13.22",
+    "s": 0,
+    "n": "Maximum Width of Binary Tree",
+    "l": "M",
+    "k": "LC 662",
+    "u": "https://leetcode.com/problems/maximum-width-of-binary-tree/"
+   },
+   {
+    "id": "13.23",
+    "s": 0,
+    "n": "Count Complete Tree Nodes",
+    "l": "E",
+    "k": "LC 222",
+    "u": "https://leetcode.com/problems/count-complete-tree-nodes/"
+   },
+   {
+    "id": "13.24",
+    "s": 1,
+    "n": "All Nodes Distance K in Binary Tree",
+    "l": "M",
+    "k": "LC 863",
+    "u": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/"
+   },
+   {
+    "id": "13.25",
+    "s": 0,
+    "n": "Amount of Time for Binary Tree to Be Infected",
+    "l": "M",
+    "k": "LC 2385",
+    "u": "https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/"
+   },
+   {
+    "id": "13.26",
+    "s": 1,
+    "n": "Construct Tree from Preorder and Inorder",
+    "l": "M",
+    "k": "LC 105",
+    "u": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/"
+   },
+   {
+    "id": "13.27",
+    "s": 0,
+    "n": "Construct Tree from Inorder and Postorder",
+    "l": "M",
+    "k": "LC 106",
+    "u": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/"
+   },
+   {
+    "id": "13.28",
+    "s": 0,
+    "n": "Flatten Binary Tree to Linked List",
+    "l": "M",
+    "k": "LC 114",
+    "u": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/"
+   },
+   {
+    "id": "13.29",
+    "s": 0,
+    "n": "Populating Next Right Pointers",
+    "l": "M",
+    "k": "LC 116",
+    "u": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/"
+   },
+   {
+    "id": "13.30",
+    "s": 1,
+    "n": "Binary Tree Maximum Path Sum",
+    "l": "H",
+    "k": "LC 124",
+    "u": "https://leetcode.com/problems/binary-tree-maximum-path-sum/"
+   },
+   {
+    "id": "13.31",
+    "s": 1,
+    "n": "Serialize and Deserialize Binary Tree",
+    "l": "H",
+    "k": "LC 297",
+    "u": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/"
+   }
+  ]
+ },
+ {
+  "p": 14,
+  "t": "Binary Search Trees",
+  "w": "Week 17",
+  "learn": "BST property (inorder = sorted) · Search / insert / delete · Validation with (min, max) · Floor/ceil · BST iterator",
+  "items": [
+   {
+    "id": "14.1",
+    "s": 0,
+    "n": "Search in a BST",
+    "l": "E",
+    "k": "LC 700",
+    "u": "https://leetcode.com/problems/search-in-a-binary-search-tree/"
+   },
+   {
+    "id": "14.2",
+    "s": 1,
+    "n": "Insert into a BST",
+    "l": "M",
+    "k": "LC 701",
+    "u": "https://leetcode.com/problems/insert-into-a-binary-search-tree/"
+   },
+   {
+    "id": "14.3",
+    "s": 1,
+    "n": "Delete Node in a BST",
+    "l": "M",
+    "k": "LC 450",
+    "u": "https://leetcode.com/problems/delete-node-in-a-bst/"
+   },
+   {
+    "id": "14.4",
+    "s": 1,
+    "n": "Validate Binary Search Tree",
+    "l": "M",
+    "k": "LC 98",
+    "u": "https://leetcode.com/problems/validate-binary-search-tree/"
+   },
+   {
+    "id": "14.5",
+    "s": 1,
+    "n": "Kth Smallest Element in a BST",
+    "l": "M",
+    "k": "LC 230",
+    "u": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/"
+   },
+   {
+    "id": "14.6",
+    "s": 1,
+    "n": "LCA of a Binary Search Tree",
+    "l": "M",
+    "k": "LC 235",
+    "u": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
+   },
+   {
+    "id": "14.7",
+    "s": 0,
+    "n": "Convert Sorted Array to BST",
+    "l": "E",
+    "k": "LC 108",
+    "u": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/"
+   },
+   {
+    "id": "14.8",
+    "s": 0,
+    "n": "Construct BST from Preorder",
+    "l": "M",
+    "k": "LC 1008",
+    "u": "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/"
+   },
+   {
+    "id": "14.9",
+    "s": 0,
+    "n": "Floor in BST",
+    "l": "E",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/floor-in-bst/1"
+   },
+   {
+    "id": "14.10",
+    "s": 0,
+    "n": "Ceil in BST",
+    "l": "E",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/implementing-ceil-in-bst/1"
+   },
+   {
+    "id": "14.11",
+    "s": 1,
+    "n": "BST Iterator",
+    "l": "M",
+    "k": "LC 173",
+    "u": "https://leetcode.com/problems/binary-search-tree-iterator/"
+   },
+   {
+    "id": "14.12",
+    "s": 0,
+    "n": "Two Sum IV - Input is a BST",
+    "l": "E",
+    "k": "LC 653",
+    "u": "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/"
+   },
+   {
+    "id": "14.13",
+    "s": 1,
+    "n": "Recover Binary Search Tree",
+    "l": "M",
+    "k": "LC 99",
+    "u": "https://leetcode.com/problems/recover-binary-search-tree/"
+   }
+  ]
+ },
+ {
+  "p": 15,
+  "t": "Heap / Priority Queue",
+  "w": "Week 18",
+  "learn": "Min-heap & max-heap · Top-K with size-K heap · K-way merge · Two heaps (running median) · Greedy with heap",
+  "items": [
+   {
+    "id": "15.1",
+    "s": 0,
+    "n": "Last Stone Weight",
+    "l": "E",
+    "k": "LC 1046",
+    "u": "https://leetcode.com/problems/last-stone-weight/"
+   },
+   {
+    "id": "15.2",
+    "s": 1,
+    "n": "Kth Largest Element in a Stream",
+    "l": "E",
+    "k": "LC 703",
+    "u": "https://leetcode.com/problems/kth-largest-element-in-a-stream/"
+   },
+   {
+    "id": "15.3",
+    "s": 1,
+    "n": "Kth Largest Element in an Array",
+    "l": "M",
+    "k": "LC 215",
+    "u": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+   },
+   {
+    "id": "15.4",
+    "s": 1,
+    "n": "K Closest Points to Origin",
+    "l": "M",
+    "k": "LC 973",
+    "u": "https://leetcode.com/problems/k-closest-points-to-origin/"
+   },
+   {
+    "id": "15.5",
+    "s": 0,
+    "n": "Kth Smallest Element in a Sorted Matrix",
+    "l": "M",
+    "k": "LC 378",
+    "u": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/"
+   },
+   {
+    "id": "15.6",
+    "s": 1,
+    "n": "Merge k Sorted Lists",
+    "l": "H",
+    "k": "LC 23",
+    "u": "https://leetcode.com/problems/merge-k-sorted-lists/"
+   },
+   {
+    "id": "15.7",
+    "s": 1,
+    "n": "Task Scheduler",
+    "l": "M",
+    "k": "LC 621",
+    "u": "https://leetcode.com/problems/task-scheduler/"
+   },
+   {
+    "id": "15.8",
+    "s": 0,
+    "n": "Reorganize String",
+    "l": "M",
+    "k": "LC 767",
+    "u": "https://leetcode.com/problems/reorganize-string/"
+   },
+   {
+    "id": "15.9",
+    "s": 0,
+    "n": "Design Twitter",
+    "l": "M",
+    "k": "LC 355",
+    "u": "https://leetcode.com/problems/design-twitter/"
+   },
+   {
+    "id": "15.10",
+    "s": 1,
+    "n": "Find Median from Data Stream",
+    "l": "H",
+    "k": "LC 295",
+    "u": "https://leetcode.com/problems/find-median-from-data-stream/"
+   },
+   {
+    "id": "15.11",
+    "s": 0,
+    "n": "IPO",
+    "l": "H",
+    "k": "LC 502",
+    "u": "https://leetcode.com/problems/ipo/"
+   },
+   {
+    "id": "15.12",
+    "s": 1,
+    "n": "Top K Frequent Elements (heap version)",
+    "l": "M",
+    "k": "LC 347",
+    "u": "https://leetcode.com/problems/top-k-frequent-elements/",
+    "re": 1
+   }
+  ]
+ },
+ {
+  "p": 16,
+  "t": "Graphs I: Traversal, Cycles, Topological Sort",
+  "w": "Weeks 19–20",
+  "learn": "Adjacency list · DFS & BFS · Grid as graph · Multi-source BFS · Cycle detection (undirected & directed) · Topological sort (Kahn) · Bipartite check",
+  "items": [
+   {
+    "id": "16.1",
+    "s": 1,
+    "n": "Flood Fill",
+    "l": "E",
+    "k": "LC 733",
+    "u": "https://leetcode.com/problems/flood-fill/"
+   },
+   {
+    "id": "16.2",
+    "s": 1,
+    "n": "Number of Islands",
+    "l": "M",
+    "k": "LC 200",
+    "u": "https://leetcode.com/problems/number-of-islands/"
+   },
+   {
+    "id": "16.3",
+    "s": 0,
+    "n": "Max Area of Island",
+    "l": "M",
+    "k": "LC 695",
+    "u": "https://leetcode.com/problems/max-area-of-island/"
+   },
+   {
+    "id": "16.4",
+    "s": 1,
+    "n": "Number of Provinces",
+    "l": "M",
+    "k": "LC 547",
+    "u": "https://leetcode.com/problems/number-of-provinces/"
+   },
+   {
+    "id": "16.5",
+    "s": 1,
+    "n": "Clone Graph",
+    "l": "M",
+    "k": "LC 133",
+    "u": "https://leetcode.com/problems/clone-graph/"
+   },
+   {
+    "id": "16.6",
+    "s": 1,
+    "n": "Rotting Oranges",
+    "l": "M",
+    "k": "LC 994",
+    "u": "https://leetcode.com/problems/rotting-oranges/"
+   },
+   {
+    "id": "16.7",
+    "s": 1,
+    "n": "01 Matrix",
+    "l": "M",
+    "k": "LC 542",
+    "u": "https://leetcode.com/problems/01-matrix/"
+   },
+   {
+    "id": "16.8",
+    "s": 0,
+    "n": "Surrounded Regions",
+    "l": "M",
+    "k": "LC 130",
+    "u": "https://leetcode.com/problems/surrounded-regions/"
+   },
+   {
+    "id": "16.9",
+    "s": 0,
+    "n": "Number of Enclaves",
+    "l": "M",
+    "k": "LC 1020",
+    "u": "https://leetcode.com/problems/number-of-enclaves/"
+   },
+   {
+    "id": "16.10",
+    "s": 0,
+    "n": "Pacific Atlantic Water Flow",
+    "l": "M",
+    "k": "LC 417",
+    "u": "https://leetcode.com/problems/pacific-atlantic-water-flow/"
+   },
+   {
+    "id": "16.11",
+    "s": 1,
+    "n": "Is Graph Bipartite?",
+    "l": "M",
+    "k": "LC 785",
+    "u": "https://leetcode.com/problems/is-graph-bipartite/"
+   },
+   {
+    "id": "16.12",
+    "s": 1,
+    "n": "Detect Cycle in an Undirected Graph",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1"
+   },
+   {
+    "id": "16.13",
+    "s": 1,
+    "n": "Detect Cycle in a Directed Graph",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1"
+   },
+   {
+    "id": "16.14",
+    "s": 0,
+    "n": "Topological Sort",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/topological-sort/1"
+   },
+   {
+    "id": "16.15",
+    "s": 1,
+    "n": "Course Schedule",
+    "l": "M",
+    "k": "LC 207",
+    "u": "https://leetcode.com/problems/course-schedule/"
+   },
+   {
+    "id": "16.16",
+    "s": 1,
+    "n": "Course Schedule II",
+    "l": "M",
+    "k": "LC 210",
+    "u": "https://leetcode.com/problems/course-schedule-ii/"
+   },
+   {
+    "id": "16.17",
+    "s": 0,
+    "n": "Find Eventual Safe States",
+    "l": "M",
+    "k": "LC 802",
+    "u": "https://leetcode.com/problems/find-eventual-safe-states/"
+   },
+   {
+    "id": "16.18",
+    "s": 0,
+    "n": "Alien Dictionary",
+    "l": "H",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/alien-dictionary/1"
+   },
+   {
+    "id": "16.19",
+    "s": 1,
+    "n": "Word Ladder",
+    "l": "H",
+    "k": "LC 127",
+    "u": "https://leetcode.com/problems/word-ladder/"
+   }
+  ]
+ },
+ {
+  "p": 17,
+  "t": "Graphs II: Shortest Paths, MST, DSU, Advanced",
+  "w": "Weeks 21–22",
+  "learn": "Dijkstra · Bellman-Ford · Floyd-Warshall · Disjoint Set Union (path compression + union by size) · MST: Kruskal & Prim · Bridges (Tarjan) · SCC (Kosaraju)",
+  "items": [
+   {
+    "id": "17.1",
+    "s": 1,
+    "n": "Shortest Path in Binary Matrix",
+    "l": "M",
+    "k": "LC 1091",
+    "u": "https://leetcode.com/problems/shortest-path-in-binary-matrix/"
+   },
+   {
+    "id": "17.2",
+    "s": 1,
+    "n": "Network Delay Time",
+    "l": "M",
+    "k": "LC 743",
+    "u": "https://leetcode.com/problems/network-delay-time/"
+   },
+   {
+    "id": "17.3",
+    "s": 1,
+    "n": "Path With Minimum Effort",
+    "l": "M",
+    "k": "LC 1631",
+    "u": "https://leetcode.com/problems/path-with-minimum-effort/"
+   },
+   {
+    "id": "17.4",
+    "s": 1,
+    "n": "Cheapest Flights Within K Stops",
+    "l": "M",
+    "k": "LC 787",
+    "u": "https://leetcode.com/problems/cheapest-flights-within-k-stops/"
+   },
+   {
+    "id": "17.5",
+    "s": 0,
+    "n": "Number of Ways to Arrive at Destination",
+    "l": "M",
+    "k": "LC 1976",
+    "u": "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/"
+   },
+   {
+    "id": "17.6",
+    "s": 0,
+    "n": "Bellman-Ford",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1"
+   },
+   {
+    "id": "17.7",
+    "s": 0,
+    "n": "Floyd Warshall",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1"
+   },
+   {
+    "id": "17.8",
+    "s": 0,
+    "n": "Find the City With the Smallest Number of Neighbors",
+    "l": "M",
+    "k": "LC 1334",
+    "u": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/"
+   },
+   {
+    "id": "17.9",
+    "s": 1,
+    "n": "Min Cost to Connect All Points",
+    "l": "M",
+    "k": "LC 1584",
+    "u": "https://leetcode.com/problems/min-cost-to-connect-all-points/"
+   },
+   {
+    "id": "17.10",
+    "s": 1,
+    "n": "Redundant Connection",
+    "l": "M",
+    "k": "LC 684",
+    "u": "https://leetcode.com/problems/redundant-connection/"
+   },
+   {
+    "id": "17.11",
+    "s": 1,
+    "n": "Number of Operations to Make Network Connected",
+    "l": "M",
+    "k": "LC 1319",
+    "u": "https://leetcode.com/problems/number-of-operations-to-make-network-connected/"
+   },
+   {
+    "id": "17.12",
+    "s": 1,
+    "n": "Accounts Merge",
+    "l": "M",
+    "k": "LC 721",
+    "u": "https://leetcode.com/problems/accounts-merge/"
+   },
+   {
+    "id": "17.13",
+    "s": 0,
+    "n": "Most Stones Removed with Same Row or Column",
+    "l": "M",
+    "k": "LC 947",
+    "u": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/"
+   },
+   {
+    "id": "17.14",
+    "s": 0,
+    "n": "Making A Large Island",
+    "l": "H",
+    "k": "LC 827",
+    "u": "https://leetcode.com/problems/making-a-large-island/"
+   },
+   {
+    "id": "17.15",
+    "s": 0,
+    "n": "Swim in Rising Water",
+    "l": "H",
+    "k": "LC 778",
+    "u": "https://leetcode.com/problems/swim-in-rising-water/"
+   },
+   {
+    "id": "17.16",
+    "s": 0,
+    "n": "Critical Connections in a Network",
+    "l": "H",
+    "k": "LC 1192",
+    "u": "https://leetcode.com/problems/critical-connections-in-a-network/"
+   },
+   {
+    "id": "17.17",
+    "s": 0,
+    "n": "Strongly Connected Components (Kosaraju)",
+    "l": "H",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1"
+   }
+  ]
+ },
+ {
+  "p": 18,
+  "t": "DP I: 1D and Grid",
+  "w": "Week 23",
+  "learn": "DP method: recursion → memoization → tabulation → space optimisation · 1D DP · Grid DP · 3D DP",
+  "items": [
+   {
+    "id": "18.1",
+    "s": 1,
+    "n": "Climbing Stairs",
+    "l": "E",
+    "k": "LC 70",
+    "u": "https://leetcode.com/problems/climbing-stairs/"
+   },
+   {
+    "id": "18.2",
+    "s": 0,
+    "n": "Min Cost Climbing Stairs",
+    "l": "E",
+    "k": "LC 746",
+    "u": "https://leetcode.com/problems/min-cost-climbing-stairs/"
+   },
+   {
+    "id": "18.3",
+    "s": 1,
+    "n": "Frog Jump (Geek Jump)",
+    "l": "E",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/geek-jump/1"
+   },
+   {
+    "id": "18.4",
+    "s": 1,
+    "n": "House Robber",
+    "l": "M",
+    "k": "LC 198",
+    "u": "https://leetcode.com/problems/house-robber/"
+   },
+   {
+    "id": "18.5",
+    "s": 1,
+    "n": "House Robber II",
+    "l": "M",
+    "k": "LC 213",
+    "u": "https://leetcode.com/problems/house-robber-ii/"
+   },
+   {
+    "id": "18.6",
+    "s": 0,
+    "n": "Geek's Training (Ninja's Training)",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/geeks-training/1"
+   },
+   {
+    "id": "18.7",
+    "s": 1,
+    "n": "Decode Ways",
+    "l": "M",
+    "k": "LC 91",
+    "u": "https://leetcode.com/problems/decode-ways/"
+   },
+   {
+    "id": "18.8",
+    "s": 1,
+    "n": "Word Break",
+    "l": "M",
+    "k": "LC 139",
+    "u": "https://leetcode.com/problems/word-break/"
+   },
+   {
+    "id": "18.9",
+    "s": 1,
+    "n": "Unique Paths",
+    "l": "M",
+    "k": "LC 62",
+    "u": "https://leetcode.com/problems/unique-paths/"
+   },
+   {
+    "id": "18.10",
+    "s": 0,
+    "n": "Unique Paths II",
+    "l": "M",
+    "k": "LC 63",
+    "u": "https://leetcode.com/problems/unique-paths-ii/"
+   },
+   {
+    "id": "18.11",
+    "s": 1,
+    "n": "Minimum Path Sum",
+    "l": "M",
+    "k": "LC 64",
+    "u": "https://leetcode.com/problems/minimum-path-sum/"
+   },
+   {
+    "id": "18.12",
+    "s": 0,
+    "n": "Triangle",
+    "l": "M",
+    "k": "LC 120",
+    "u": "https://leetcode.com/problems/triangle/"
+   },
+   {
+    "id": "18.13",
+    "s": 0,
+    "n": "Minimum Falling Path Sum",
+    "l": "M",
+    "k": "LC 931",
+    "u": "https://leetcode.com/problems/minimum-falling-path-sum/"
+   },
+   {
+    "id": "18.14",
+    "s": 0,
+    "n": "Maximal Square",
+    "l": "M",
+    "k": "LC 221",
+    "u": "https://leetcode.com/problems/maximal-square/"
+   },
+   {
+    "id": "18.15",
+    "s": 0,
+    "n": "Cherry Pickup II",
+    "l": "H",
+    "k": "LC 1463",
+    "u": "https://leetcode.com/problems/cherry-pickup-ii/"
+   }
+  ]
+ },
+ {
+  "p": 19,
+  "t": "DP II: Subsets and Knapsack",
+  "w": "Week 24",
+  "learn": "Subset sum · 0/1 knapsack · Unbounded knapsack · Counting combinations vs permutations",
+  "items": [
+   {
+    "id": "19.1",
+    "s": 1,
+    "n": "Subset Sum Problem",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1"
+   },
+   {
+    "id": "19.2",
+    "s": 1,
+    "n": "Partition Equal Subset Sum",
+    "l": "M",
+    "k": "LC 416",
+    "u": "https://leetcode.com/problems/partition-equal-subset-sum/"
+   },
+   {
+    "id": "19.3",
+    "s": 0,
+    "n": "Partitions with Given Difference",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/partitions-with-given-difference/1"
+   },
+   {
+    "id": "19.4",
+    "s": 1,
+    "n": "Target Sum",
+    "l": "M",
+    "k": "LC 494",
+    "u": "https://leetcode.com/problems/target-sum/"
+   },
+   {
+    "id": "19.5",
+    "s": 0,
+    "n": "Last Stone Weight II",
+    "l": "M",
+    "k": "LC 1049",
+    "u": "https://leetcode.com/problems/last-stone-weight-ii/"
+   },
+   {
+    "id": "19.6",
+    "s": 1,
+    "n": "0-1 Knapsack",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1"
+   },
+   {
+    "id": "19.7",
+    "s": 1,
+    "n": "Coin Change",
+    "l": "M",
+    "k": "LC 322",
+    "u": "https://leetcode.com/problems/coin-change/"
+   },
+   {
+    "id": "19.8",
+    "s": 1,
+    "n": "Coin Change II",
+    "l": "M",
+    "k": "LC 518",
+    "u": "https://leetcode.com/problems/coin-change-ii/"
+   },
+   {
+    "id": "19.9",
+    "s": 1,
+    "n": "Unbounded Knapsack",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1"
+   },
+   {
+    "id": "19.10",
+    "s": 0,
+    "n": "Rod Cutting",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/rod-cutting0840/1"
+   },
+   {
+    "id": "19.11",
+    "s": 0,
+    "n": "Combination Sum IV",
+    "l": "M",
+    "k": "LC 377",
+    "u": "https://leetcode.com/problems/combination-sum-iv/"
+   }
+  ]
+ },
+ {
+  "p": 20,
+  "t": "DP III: Strings and LIS",
+  "w": "Weeks 25–26",
+  "learn": "LCS and its family (LPS, SCS, deletions/insertions) · Edit distance · Wildcard/regex matching · LIS (O(n²) and O(n log n))",
+  "items": [
+   {
+    "id": "20.1",
+    "s": 1,
+    "n": "Longest Common Subsequence",
+    "l": "M",
+    "k": "LC 1143",
+    "u": "https://leetcode.com/problems/longest-common-subsequence/"
+   },
+   {
+    "id": "20.2",
+    "s": 1,
+    "n": "Longest Palindromic Subsequence",
+    "l": "M",
+    "k": "LC 516",
+    "u": "https://leetcode.com/problems/longest-palindromic-subsequence/"
+   },
+   {
+    "id": "20.3",
+    "s": 0,
+    "n": "Minimum Insertion Steps to Make a String Palindrome",
+    "l": "H",
+    "k": "LC 1312",
+    "u": "https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/"
+   },
+   {
+    "id": "20.4",
+    "s": 0,
+    "n": "Delete Operation for Two Strings",
+    "l": "M",
+    "k": "LC 583",
+    "u": "https://leetcode.com/problems/delete-operation-for-two-strings/"
+   },
+   {
+    "id": "20.5",
+    "s": 0,
+    "n": "Shortest Common Supersequence",
+    "l": "H",
+    "k": "LC 1092",
+    "u": "https://leetcode.com/problems/shortest-common-supersequence/"
+   },
+   {
+    "id": "20.6",
+    "s": 1,
+    "n": "Edit Distance",
+    "l": "M",
+    "k": "LC 72",
+    "u": "https://leetcode.com/problems/edit-distance/"
+   },
+   {
+    "id": "20.7",
+    "s": 0,
+    "n": "Distinct Subsequences",
+    "l": "H",
+    "k": "LC 115",
+    "u": "https://leetcode.com/problems/distinct-subsequences/"
+   },
+   {
+    "id": "20.8",
+    "s": 1,
+    "n": "Wildcard Matching",
+    "l": "H",
+    "k": "LC 44",
+    "u": "https://leetcode.com/problems/wildcard-matching/"
+   },
+   {
+    "id": "20.9",
+    "s": 0,
+    "n": "Regular Expression Matching",
+    "l": "H",
+    "k": "LC 10",
+    "u": "https://leetcode.com/problems/regular-expression-matching/"
+   },
+   {
+    "id": "20.10",
+    "s": 1,
+    "n": "Longest Increasing Subsequence",
+    "l": "M",
+    "k": "LC 300",
+    "u": "https://leetcode.com/problems/longest-increasing-subsequence/"
+   },
+   {
+    "id": "20.11",
+    "s": 1,
+    "n": "Largest Divisible Subset",
+    "l": "M",
+    "k": "LC 368",
+    "u": "https://leetcode.com/problems/largest-divisible-subset/"
+   },
+   {
+    "id": "20.12",
+    "s": 1,
+    "n": "Longest String Chain",
+    "l": "M",
+    "k": "LC 1048",
+    "u": "https://leetcode.com/problems/longest-string-chain/"
+   },
+   {
+    "id": "20.13",
+    "s": 0,
+    "n": "Number of Longest Increasing Subsequence",
+    "l": "M",
+    "k": "LC 673",
+    "u": "https://leetcode.com/problems/number-of-longest-increasing-subsequence/"
+   },
+   {
+    "id": "20.14",
+    "s": 0,
+    "n": "Russian Doll Envelopes",
+    "l": "H",
+    "k": "LC 354",
+    "u": "https://leetcode.com/problems/russian-doll-envelopes/"
+   }
+  ]
+ },
+ {
+  "p": 21,
+  "t": "DP IV: Stocks, Partition and Interval DP",
+  "w": "Week 27",
+  "learn": "Stock problems as state-machine DP · Interval / partition DP (MCM, Burst Balloons) · Front partition DP · DP + binary search",
+  "items": [
+   {
+    "id": "21.1",
+    "s": 1,
+    "n": "Best Time to Buy and Sell Stock II",
+    "l": "M",
+    "k": "LC 122",
+    "u": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/"
+   },
+   {
+    "id": "21.2",
+    "s": 1,
+    "n": "Best Time with Cooldown",
+    "l": "M",
+    "k": "LC 309",
+    "u": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/"
+   },
+   {
+    "id": "21.3",
+    "s": 0,
+    "n": "Best Time with Transaction Fee",
+    "l": "M",
+    "k": "LC 714",
+    "u": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/"
+   },
+   {
+    "id": "21.4",
+    "s": 0,
+    "n": "Best Time to Buy and Sell Stock III",
+    "l": "H",
+    "k": "LC 123",
+    "u": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/"
+   },
+   {
+    "id": "21.5",
+    "s": 0,
+    "n": "Best Time to Buy and Sell Stock IV",
+    "l": "H",
+    "k": "LC 188",
+    "u": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/"
+   },
+   {
+    "id": "21.6",
+    "s": 1,
+    "n": "Matrix Chain Multiplication",
+    "l": "H",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1"
+   },
+   {
+    "id": "21.7",
+    "s": 0,
+    "n": "Minimum Cost to Cut a Stick",
+    "l": "H",
+    "k": "LC 1547",
+    "u": "https://leetcode.com/problems/minimum-cost-to-cut-a-stick/"
+   },
+   {
+    "id": "21.8",
+    "s": 0,
+    "n": "Burst Balloons",
+    "l": "H",
+    "k": "LC 312",
+    "u": "https://leetcode.com/problems/burst-balloons/"
+   },
+   {
+    "id": "21.9",
+    "s": 0,
+    "n": "Palindrome Partitioning II",
+    "l": "H",
+    "k": "LC 132",
+    "u": "https://leetcode.com/problems/palindrome-partitioning-ii/"
+   },
+   {
+    "id": "21.10",
+    "s": 0,
+    "n": "Partition Array for Maximum Sum",
+    "l": "M",
+    "k": "LC 1043",
+    "u": "https://leetcode.com/problems/partition-array-for-maximum-sum/"
+   },
+   {
+    "id": "21.11",
+    "s": 1,
+    "n": "Maximum Profit in Job Scheduling",
+    "l": "H",
+    "k": "LC 1235",
+    "u": "https://leetcode.com/problems/maximum-profit-in-job-scheduling/"
+   }
+  ]
+ },
+ {
+  "p": 22,
+  "t": "Bit Manipulation and Trie",
+  "w": "Week 28",
+  "learn": "Bit operations (set/clear/toggle, x&(x−1), XOR tricks) · Bitmask subsets · Trie · Binary trie for max XOR",
+  "items": [
+   {
+    "id": "22.1",
+    "s": 0,
+    "n": "Power of Two",
+    "l": "E",
+    "k": "LC 231",
+    "u": "https://leetcode.com/problems/power-of-two/"
+   },
+   {
+    "id": "22.2",
+    "s": 1,
+    "n": "Number of 1 Bits",
+    "l": "E",
+    "k": "LC 191",
+    "u": "https://leetcode.com/problems/number-of-1-bits/"
+   },
+   {
+    "id": "22.3",
+    "s": 1,
+    "n": "Counting Bits",
+    "l": "E",
+    "k": "LC 338",
+    "u": "https://leetcode.com/problems/counting-bits/"
+   },
+   {
+    "id": "22.4",
+    "s": 0,
+    "n": "Minimum Bit Flips to Convert Number",
+    "l": "E",
+    "k": "LC 2220",
+    "u": "https://leetcode.com/problems/minimum-bit-flips-to-convert-number/"
+   },
+   {
+    "id": "22.5",
+    "s": 0,
+    "n": "Reverse Bits",
+    "l": "E",
+    "k": "LC 190",
+    "u": "https://leetcode.com/problems/reverse-bits/"
+   },
+   {
+    "id": "22.6",
+    "s": 1,
+    "n": "Single Number II",
+    "l": "M",
+    "k": "LC 137",
+    "u": "https://leetcode.com/problems/single-number-ii/"
+   },
+   {
+    "id": "22.7",
+    "s": 0,
+    "n": "Single Number III",
+    "l": "M",
+    "k": "LC 260",
+    "u": "https://leetcode.com/problems/single-number-iii/"
+   },
+   {
+    "id": "22.8",
+    "s": 0,
+    "n": "Sum of Two Integers",
+    "l": "M",
+    "k": "LC 371",
+    "u": "https://leetcode.com/problems/sum-of-two-integers/"
+   },
+   {
+    "id": "22.9",
+    "s": 0,
+    "n": "Divide Two Integers",
+    "l": "M",
+    "k": "LC 29",
+    "u": "https://leetcode.com/problems/divide-two-integers/"
+   },
+   {
+    "id": "22.10",
+    "s": 0,
+    "n": "Maximum Product of Word Lengths",
+    "l": "M",
+    "k": "LC 318",
+    "u": "https://leetcode.com/problems/maximum-product-of-word-lengths/"
+   },
+   {
+    "id": "22.11",
+    "s": 0,
+    "n": "Partition to K Equal Sum Subsets",
+    "l": "M",
+    "k": "LC 698",
+    "u": "https://leetcode.com/problems/partition-to-k-equal-sum-subsets/"
+   },
+   {
+    "id": "22.12",
+    "s": 1,
+    "n": "Implement Trie (Prefix Tree)",
+    "l": "M",
+    "k": "LC 208",
+    "u": "https://leetcode.com/problems/implement-trie-prefix-tree/"
+   },
+   {
+    "id": "22.13",
+    "s": 0,
+    "n": "Longest Word in Dictionary",
+    "l": "M",
+    "k": "LC 720",
+    "u": "https://leetcode.com/problems/longest-word-in-dictionary/"
+   },
+   {
+    "id": "22.14",
+    "s": 1,
+    "n": "Design Add and Search Words",
+    "l": "M",
+    "k": "LC 211",
+    "u": "https://leetcode.com/problems/design-add-and-search-words-data-structure/"
+   },
+   {
+    "id": "22.15",
+    "s": 1,
+    "n": "Maximum XOR of Two Numbers in an Array",
+    "l": "M",
+    "k": "LC 421",
+    "u": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/"
+   },
+   {
+    "id": "22.16",
+    "s": 1,
+    "n": "Word Search II",
+    "l": "H",
+    "k": "LC 212",
+    "u": "https://leetcode.com/problems/word-search-ii/"
+   }
+  ]
+ },
+ {
+  "p": 23,
+  "t": "Segment Tree / Fenwick Tree and Design Problems",
+  "w": "Week 29",
+  "learn": "Segment tree · Fenwick tree (BIT) · Merge-sort counting (inversions) · Data-structure design (LRU, LFU, O(1) ops)",
+  "items": [
+   {
+    "id": "23.1",
+    "s": 1,
+    "n": "Count Inversions",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1"
+   },
+   {
+    "id": "23.2",
+    "s": 1,
+    "n": "Range Sum Query - Mutable",
+    "l": "M",
+    "k": "LC 307",
+    "u": "https://leetcode.com/problems/range-sum-query-mutable/"
+   },
+   {
+    "id": "23.3",
+    "s": 0,
+    "n": "Range Minimum Query",
+    "l": "M",
+    "k": "GFG",
+    "u": "https://www.geeksforgeeks.org/problems/range-minimum-query/1"
+   },
+   {
+    "id": "23.4",
+    "s": 0,
+    "n": "Reverse Pairs",
+    "l": "H",
+    "k": "LC 493",
+    "u": "https://leetcode.com/problems/reverse-pairs/"
+   },
+   {
+    "id": "23.5",
+    "s": 0,
+    "n": "Count of Smaller Numbers After Self",
+    "l": "H",
+    "k": "LC 315",
+    "u": "https://leetcode.com/problems/count-of-smaller-numbers-after-self/"
+   },
+   {
+    "id": "23.6",
+    "s": 0,
+    "n": "Design HashSet",
+    "l": "E",
+    "k": "LC 705",
+    "u": "https://leetcode.com/problems/design-hashset/"
+   },
+   {
+    "id": "23.7",
+    "s": 0,
+    "n": "Design HashMap",
+    "l": "E",
+    "k": "LC 706",
+    "u": "https://leetcode.com/problems/design-hashmap/"
+   },
+   {
+    "id": "23.8",
+    "s": 1,
+    "n": "LRU Cache",
+    "l": "M",
+    "k": "LC 146",
+    "u": "https://leetcode.com/problems/lru-cache/"
+   },
+   {
+    "id": "23.9",
+    "s": 1,
+    "n": "Insert Delete GetRandom O(1)",
+    "l": "M",
+    "k": "LC 380",
+    "u": "https://leetcode.com/problems/insert-delete-getrandom-o1/"
+   },
+   {
+    "id": "23.10",
+    "s": 1,
+    "n": "Time Based Key-Value Store",
+    "l": "M",
+    "k": "LC 981",
+    "u": "https://leetcode.com/problems/time-based-key-value-store/"
+   },
+   {
+    "id": "23.11",
+    "s": 0,
+    "n": "Design Browser History",
+    "l": "M",
+    "k": "LC 1472",
+    "u": "https://leetcode.com/problems/design-browser-history/"
+   },
+   {
+    "id": "23.12",
+    "s": 0,
+    "n": "LFU Cache",
+    "l": "H",
+    "k": "LC 460",
+    "u": "https://leetcode.com/problems/lfu-cache/"
+   }
+  ]
+ }
+]
