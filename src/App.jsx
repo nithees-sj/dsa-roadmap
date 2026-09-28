@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { flushSync } from 'react-dom'
 import PHASES from './data/problems.json'
-import { loadCollapsed, loadProgress, saveCollapsed, saveProgress } from './storage.js'
+import { emptyProgress, loadCollapsed, loadProgress, saveCollapsed, saveProgress } from './storage.js'
 import Masthead from './components/Masthead.jsx'
 import SummaryStats from './components/SummaryStats.jsx'
 import PhaseMap from './components/PhaseMap.jsx'
@@ -9,6 +9,7 @@ import Toolbar from './components/Toolbar.jsx'
 import PhaseSection from './components/PhaseSection.jsx'
 
 const counted = (it) => !it.re // 15.12 is a re-solve, not a new problem
+const VALID_IDS = new Set(PHASES.flatMap((p) => p.items.map((it) => it.id)))
 
 // Totals for the summary cards, plus done/total/% for every phase.
 function computeStats(progress) {
@@ -86,7 +87,12 @@ function App() {
 
   return (
     <div className="wrap">
-      <Masthead storageOk={storageOk} />
+      <Masthead
+        storageOk={storageOk}
+        progress={progress}
+        validIds={VALID_IDS}
+        onReplace={(next) => updateProgress(next || emptyProgress())}
+      />
       <SummaryStats stats={stats} />
       <PhaseMap phases={PHASES} stats={stats.phases} onJump={jumpTo} />
       <Toolbar
