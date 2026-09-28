@@ -132,6 +132,9 @@ ol.items { list-style: none; margin: 0 0 14px; padding: 0; display: grid; gap: 2
 /* Masthead actions: export, import, reset */
 .masthead { grid-template-columns: 1fr auto; column-gap: 16px; align-items: start; }
 .mast-main { display: grid; gap: 6px; min-width: 0; }
+.doc-links { display: flex; flex-wrap: wrap; gap: 2px 14px; font-size: 13px; }
+.doc-links a { color: var(--accent); font-weight: 500; text-decoration: none; }
+.doc-links a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .mast-actions { display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; }
 .confirm { grid-column: 1 / -1; margin-top: 8px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; background: var(--surface-2); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; font-size: 14px; }
 .confirm p { margin: 0; flex: 1 1 280px; }

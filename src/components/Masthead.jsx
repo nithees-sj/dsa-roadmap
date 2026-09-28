@@ -1,6 +1,14 @@
 import { useEffect, useRef, useState } from 'react'
 import { exportProgress, parseImport } from '../storage.js'
 
+const DOCS_URL = 'https://github.com/nithees-sj/dsa-roadmap/blob/main/docs/'
+const DOCS = [
+  ['Study plan', 'DSA_Mastery_Path_2.0.md'],
+  ['Concepts guide', 'DSA_Concepts_Guide.md'],
+  ['Practice list', 'DSA_Practice_List.md'],
+  ['Checklist', 'DSA_Checklist.md'],
+]
+
 // pending is null, or one of:
 //   { kind: 'import', data }   waiting for the user to confirm an import
 //   { kind: 'reset' }          waiting for the user to confirm a reset
@@ -50,6 +58,11 @@ function Masthead({ storageOk, progress, validIds, onReplace }) {
           <span className="dot"></span>
           <span id="saveText">{storageOk ? 'Saved in this browser' : "Progress can't be saved in this browser"}</span>
         </div>
+        <nav className="doc-links" aria-label="Study material">
+          {DOCS.map(([label, file]) => (
+            <a key={file} href={DOCS_URL + file} target="_blank" rel="noopener">{label}</a>
+          ))}
+        </nav>
       </div>
       <div className="mast-actions">
         <button type="button" className="ghost" onClick={() => exportProgress(progress)}>Export progress</button>
