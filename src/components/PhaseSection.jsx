@@ -27,8 +27,8 @@ function PhaseSection({ phase, stat, open, onOpenChange, progress, filter, query
         <span className="pnum">{phase.p}</span>
         <span><div className="ptitle">{phase.t}</div><div className="pweek">{phase.w}</div></span>
         <span className="pprog">
-          <span className="count" data-count>{stat.done}/{stat.total}</span>
-          <span className="bar"><span data-bar style={{ width: stat.pct + '%' }}></span></span>
+          <span className="count" data-count="">{stat.done}/{stat.total}</span>
+          <span className="bar"><span data-bar="" style={{ width: stat.pct + '%' }}></span></span>
         </span>
       </summary>
       <p className="learn"><b>Learn:</b> {phase.learn}</p>
